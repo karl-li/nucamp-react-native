@@ -2,7 +2,7 @@
 This project documents my work during Nucamp's React Native Course.
 
 ## Setup
-I used the emulator from Android Studio, Expo CLI as well as a library called React Native Elements. 
+I used an Android Virtual Device Manager / emulator from Android Studio, Expo CLI as well as a library called React Native Elements. 
 
 See https://expo.io/tools.
 
