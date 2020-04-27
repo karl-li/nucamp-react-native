@@ -30,11 +30,11 @@ class About extends Component {
       <ScrollView>
         <Mission />
         <Card title="Community Partners">
-        <FlatList
-        data={this.state.partners}
-        renderItem={renderPartner}
-        keyExtractor={(item) => item.id.toString()}
-      />
+          <FlatList
+            data={this.state.partners}
+            renderItem={renderPartner}
+            keyExtractor={(item) => item.id.toString()}
+          />
         </Card>
       </ScrollView>
     );
