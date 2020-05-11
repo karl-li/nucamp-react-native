@@ -283,7 +283,7 @@ const MainNavigator = createDrawerNavigator(
       navigationOptions: {
         drawerLabel: "Contact Us",
         drawerIcon: ({ tintColor }) => (
-          <Icon name="home" type="font-awesome" size={24} color={tintColor} />
+          <Icon name="address-card" type="font-awesome" size={24} color={tintColor} />
         ),
       },
     },
