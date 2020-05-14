@@ -157,6 +157,7 @@ class RegisterTab extends Component {
       if(!capturedImage.cancelled) {
         console.log(capturedImage);
         this.setState({imageUrl: capturedImage.url})
+        console.log(capturedImage);
       }
     }
   }
@@ -179,13 +180,14 @@ class RegisterTab extends Component {
   }
 
   render() {
+    console.log(this.state.imageUrl);
     return (
       <ScrollView>
         <View style={styles.container}>
           <View style={styles.imageContainer}>
             <Image
-              source={{ uri: this.state.imageUrl }}
-              loadingIndicatorSource={require("./images/logo.png")}
+              source={{uri: this.state.imageUrl}}
+              loadingIndicatorSource={require('./images/logo.png')}
               styles={styles.image}
             />
             <Button
